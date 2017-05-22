@@ -1,0 +1,5 @@
+src/WebSockets/bin/*
+src/WebSockets/obj/*
+src/WebSockets/wwwroot/lib/*
+src/WebSockets/Project_Readme.html
+.vs/*

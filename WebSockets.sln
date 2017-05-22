@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{14CED572-01D5-4A50-BEC9-37267A8D3692}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D32D5DEF-28F8-4EEF-9818-B4141A83E4FC}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "WebSockets", "src\WebSockets\WebSockets.xproj", "{5FDA7BC8-012F-4DE7-AB02-FEDFB1BE4EA8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5FDA7BC8-012F-4DE7-AB02-FEDFB1BE4EA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FDA7BC8-012F-4DE7-AB02-FEDFB1BE4EA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FDA7BC8-012F-4DE7-AB02-FEDFB1BE4EA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FDA7BC8-012F-4DE7-AB02-FEDFB1BE4EA8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5FDA7BC8-012F-4DE7-AB02-FEDFB1BE4EA8} = {14CED572-01D5-4A50-BEC9-37267A8D3692}
+	EndGlobalSection
+EndGlobal
