@@ -1,0 +1,40 @@
+﻿@{
+    ViewData["Title"] = "WebSocket Page";
+}
+
+<h1>WebSocket Example</h1>
+
+<br />
+
+<div class="row form-inline">
+    <span style="font-weight: bold; margin-right:20px;">Server:</span>
+    <input id="serverURL" name="serverURL" class="form-control" style="margin-right: 20px; width: 250px;" />
+    <input type="submit" id="connectServer" value="Connect to server" class="btn btn-primary" style="margin-right: 20px;" />
+    <span id="statusWebSocket"></span>
+</div>
+
+<div class="row" style="height: 20px;">
+
+</div>
+
+<div class="row form-inline">
+    <span style="font-weight: bold; margin-right:20px;">Message:</span>
+    <input id="message" name="message" class="form-control" style="margin-right: 20px; width: 250px;" />
+    <input type="submit" id="sendMessage" value="Send message" class="btn btn-success" style="margin-right: 20px;" />
+    <input type="submit" id="closeSocket" value="Close socket" class="btn btn-danger" />
+</div>
+
+<div class="row" style="margin-top: 50px;">
+    <table>
+        <thead>
+            <tr>
+                <th style="width: 150px;">From</th>
+                <th style="width: 150px;">To</th>
+                <th style="width: 150px;">Message</th>
+            </tr>
+        </thead>
+        <tbody id="logs">
+
+        </tbody>
+    </table>
+</div>
